@@ -2,6 +2,10 @@
 
 This assembly contains the design for a pellet dispenser. It can be used and adjusted to dispense a single pellet of adjustable shape and size.
 
+## 📁 SolidWorks Assembly File Link:
+
+- https://github.com/trevordcampbell/open-source-hardware/blob/main/pellet-dispensers/single-pellet-dispenser/Pellet%20Dispenser.SLDASM
+
 ## 📏 Design Units:
 
 - Metric / MMGS
@@ -13,10 +17,10 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 - Motor Mounting Plate
 - Rotating Plate with Pellet Dispensing Slots
 - Pellet Slot Blocker
-- Pellet Outlet Track
 - Base Stand
 - Motor Cover Plate  *`(optional)`*
 - IR Break Beam Unit Mounting Plate  *`(optional)`*
+- Pellet Outlet Track  *`(optional)`*
 - Pellet Outlet Track Mounting Plate  *`(optional)`*
 
 ---

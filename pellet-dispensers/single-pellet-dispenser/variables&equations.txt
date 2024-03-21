@@ -1,0 +1,120 @@
+﻿"generalFittingTolerance"= 0.1mm'The general fitting tolerance between contacting parts
+
+
+"pelletWidth"= 13mm'The Width of the pellet to be dispensed
+"pelletLength"= 26mm'The length of the pellet to be dispensed
+"pelletThickness"= 13mm'The Thickness of the pellet to be dispensed
+"pelletRadius"= 10mm'The roundness / radius of the pellet to be dispensed
+
+
+"rotatingPlateDiameter"= 100mm'the diameter of the rotating plate
+"rotatingPlateHeight"= ("pelletThickness"*0.9)'The thickness of the rotating plate
+"rotatingPlateDiameterAllowance"= 0.5mm'Allowance around the edge of the rotating plate
+"rotatingPlatePelletSlotLength"= "pelletLength"*1.3'The length of the slot where a pellet will be captured
+"rotatingPlatePelletSlotWidth"= "pelletWidth"*1.3'The width of the slot where a pellet will be captured
+"rotatingPlateNumberOfPelletSlots"= ( (2*pi*("rotatingPlateDiameter"/2)) / (("rotatingPlatePelletSlotLength"*1.1)*3) )'The maximum number of pellet slots allows in the rotating plate for proper spacing
+
+"rotatingPlateAgitatorDiameter"= ( "rotatingPlateDiameter"-(("pelletWidth"*1.3)*2.5) )'The diameter of the "agitator" section of the rotating plate
+"rotatingPlateAgitatorHeight"= 80mm'The height of the "agitator" section of the rotating plate
+"rotatingPlateAgitatorTopRoundingRadius"= 6mm'The rounding radius of the top of the "agitator" section of the rotating plate
+"rotatingPlateAgitatorBladeThickness"= 4mm'The thickness of the blade on the "agitator" section of the rotating plate
+"rotatingPlateAgitatorBladeDistance"= ( ("rotatingPlateAgitatorDiameter"+ 20mm) - ("rotatingPlateAgitatorDiameter") )'The distance offset of the blade from the surface of the "agitator" section of the rotating plate
+"rotatingPlateAgitatorBladeBottomGap"= ( "pelletThickness"*1.2 )'The gap between the bottom of the blade and the base of the plate on the "agitator" section of the rotating plate
+"rotatingPlateAgitatorBladesNumber"= ( 3 )'The number of blades on the "agitator" section of the rotating plate
+
+
+"hopperBaseInnerDiameter"= ("rotatingPlateDiameter") + ("rotatingPlateDiameterAllowance"*2)'Diameter of the Base of the hopper where it meets the motor mount + rotating plate
+"hopperBaseOuterDiameter"= ("hopperBaseInnerDiameter" + ("hopperTankWallThickness"*2) + 60mm)'Diameter of the Base of the hopper where it meets the motor mount + rotating plate
+"hopperBaseChamferAngle"= 60deg'Angle of the chamfer of the Hopper base Toward the plate
+"hopperBaseLipOverhang"= 5mm'The overhang amount of the hopper base lip
+"hopperBaseLipDepth"= 5mm'The depth of the hopper base's overhang lip
+"hopperBaseLockNotchWidth"= 10mm'The width of the hopper base "lock" notch to prevent rotation
+"hopperBaseLockNotchHeight"= 10mm'The height of the hopper base "lock" notch to prevent rotation
+"hopperBaseRearNotchHeight"= 8mm'The height of the rear snap-lock notch on the hopper base
+"hopperBaseRearNotchWidth"= 8mm'The width of the rear snap-lock notch on the hopper base
+
+"hopperTankWallThickness"= 5mm'The wall thickness of the hopper tank where pellet reserve will be stored
+"hopperTankDiameter"= ( "rotatingPlateDiameter"*1.8 )'**Must be greater than "rotatingPlateDiameter" -- The inner diameter of the hopper tank where pellet reserve will be stored
+"hopperTankHeight"= 200mm'The height of the hopper tank where pellet reserve will be stored
+"hopperTankCoverThickness"= 10mm'The thickness of the Hopper Tank's cover
+"hopperTankCoverHandleLength"= 60mm'The length of the handles on the hopper tank cover
+"hopperTankCoverHandleWidth"= 20mm'The width of the handles on the hopper tank cover, defined as the offset from the cover's main edge
+
+"hopperBasePelletBlockerMountingSlotWidth"= 5mm'The width of the pellet blocker mounting slot on the hopper base
+"hopperBasePelletBlockerMountingSlotOffsetFromTopOfChamfer"= 15mm'The distance offset of the top of the pellet blocker mounting slot from the top of the hopper base chamfer
+"hopperBasePelletBlockerMountingSlotOffsetFromBottomOfChamfer"= 10mm'The distance offset of the bottom of the pellet blocker mounting slot from the bottom of the hopper base chamfer
+
+
+"motorMountOffset"= 30mm'The distance offset of the motor mount part from the hopper tank's outer edge
+"motorMountHeight"= ("motorHeight" + "motorFacePlateThickness" + 0mm)'The height / thickness of the motor mount part
+"motorMountPelletThroughHoleLength"= 40mm'The length of the pellet throughhole that routes through the motor mount and other parts
+"motorMountPelletThroughHoleWidth"= 20mm'The width of the pellet throughhole that routes through the motor mount and other parts
+
+"motorDiameter"= 35mm'The Diameter of the main motor unit
+"motorHeight"= 13.4mm'The height of the main motor unit
+"motorConnectorWidth"= 10mm'The width of the motor's electrical cable connector
+"motorConnectorLength"= 8mm'The length of the motor's electrical cable connector
+"motorConnectorHeight"= 5mm'The height of the motor's electrical cable connector
+"motorFacePlateLength"= 50mm'The length of the motor faceplate
+"motorFacePlateWidth"= 10mm'The width of the motor faceplate
+"motorFacePlateThickness"= 1mm'The thickness of the motor faceplate
+"motorFacePlateCenterRadius"= 20mm'The rounding radius of the motor faceplate center
+"motorFacePlateEndRadius"= 10mm'The rounding radius of the motor faceplate ends
+"motorFacePlateMountingHoleDiameter"= 6mm'The diameter of the motor faceplate's mounting holes
+"motorFacePlateMoutingHoleDistanceBetweenHoles"= 42mm'The distance between the center of the mounting holes
+"motorSpindleDiameter"= 2mm'The diameter of the motor spindle
+"motorSpindleFlatFaceLength"= 1.5mm'The length of the flat face of the motor spindle
+"motorSpindleHeight"= 9mm'The height of the motor spindle from the face of the motor
+"motorSpindleMountDiameter"= 12mm'The diameter of the raised mount section of the motor where the spindle is attached
+"motorSpindleMountHeight"= 1.5mm'The height of the raised mount section of the motor where the spindle is attached
+
+
+"irBeamUnitLength"=20mm'The legth of the IR beam unit
+"irBeamUnitWidth"=10mm'The width of the IR beam unit
+"irBeamUnitHeight"=8mm'The height of the IR beam unit
+"irBeamUnitSlotWidth"=2.03mm'The width of the slots on the outside of the IR beam unit
+"irBeamUnitSlotLength"=5.10mm'The length of the slots of the outside of the IR beam unit
+"irBeamUnitSlotDepth"=0.76mm'The depth of the slots on the outside of the IR beam unit
+"irBeamUnitSlotChamferAngle"=45deg'The angle of the "end" of the slot on the outside of the IR beam unit
+"irBeamUnitSideSlotsDistanceFromBottom"=3.98mm'The distance of the side slots on the outside of the IR beam unit from the bottom edge of the unit
+"irBeamUnitMountHoleDistanceFromBottom"=5mm'The distance of the center mounting throughhole of the IR beam unit from the bottom edge of the unit
+"irBeamUnitMountHoleDiameter"=2.40mm'The diameter of the center mounting throughhole of the IR beam unit
+"irBeamUnitMountHoleChamferDiameter"=5.30mm'The diameter of the chamfer of the center mounting throughole of the IR beam unit
+"irBeamUnitMountHoleChamferDepth"=2.65mm'The depth of the chamfer of the center mounting throughole of the IR beam unit
+"irBeamUnitLEDDistanceFromBottom"=15mm'The distance of the center of the LED from the bottom edge of the IR beam unit
+"irBeamUnitLEDMountDiameter"=8mm'The diameter of the LED mounting base of the IR beam unit
+"irBeamUnitLEDMountHeight"=1.02mm'The height of the LED mounting base of the IR beam unit
+"irBeamUnitLEDDiameter"=3.00mm'The diameter of the LED of the IR beam unit
+"irBeamUnitLEDFlatSectionHeight"=0.65mm'The height of the "flat" section of the LED of the IR beam unit
+"irBeamUnitLEDDomeSectionDiameter"="irBeamUnitLEDDiameter"'The diameter of the "domed" section of the LED of the IR beam unit
+
+"irBeamUnitMountingPlateThickness"=2mm'The thickness of the IR beam unit mounting plate
+"irBeamUnitMountingPlateAdjustmentSlotLength"=10mm'The length of the variable/adjustable mounting slot of the IR beam unit mounting plate
+
+"pelletBlockerBaseWidth"= ("rotatingPlatePelletSlotWidth"+"rotatingPlateDiameterAllowance")*1.1'The width of the base of the pellet blocker where it meets the rotating plate & pellet slot
+"pelletBlockerBaseLength"= "rotatingPlatePelletSlotLength"*1.1'The length of the base of the pellet blocker where it meets the rotating plate & pellet slot
+"pelletBlockerBaseRoundingRadius"= "pelletWidth"*0.5'The rounding radius of the base of the pellet blocker where it meets the rotating plate & pellet slot
+"pelletBlockerBaseHeight"= "rotatingPlateAgitatorBladeBottomGap"*0.75'The height of the base of the pellet blocker where it meets the rotating plate & pellet slot
+"pelletBlockerNeckLength"= 50mm'The length of the neck of the pellet blocker
+"pelletBlockerNeckTopRoundingRadius"=2mm'The rounding radius of the top of the neck of the pellet blocker
+
+
+"pelletOutletTrackMountingPlateThickness"= 2mm'The thickness of the Pellet Outlet Track Mounting Plate
+"pelletOutletTrackMountingPlateHingeHeight"= ("irBeamUnitWidth" + "irBeamUnitMountingPlateThickness" + 2mm )'The height of the bottom of the hinge of the Pellet Outlet Mounting Plate
+"pelletOutletTrackMountingPlateHingeDiameter"= 6mm'The inner diameter of the hinge on the Pellet Outlet Mounting Plate
+"pelletOutletTrackMountingPlateHingeOffsetFromHoleDistance"= ("pelletOutletTrackMountingPlateHingeDiameter" + "pelletOutletTrackMountingPlateThickness" + 4mm)'The distance offset of the hinge of the Pellet Outlet Mounting Plate from the plate's mounting hole position
+
+
+"pelletOutletTrackHingeWidth"= 10mm'The width of the pellet outlet track's hinge which mates with the hinge on the mounting plate
+"pelletOutletTrackHingeOffsetFromIRBeamUnitEdge"= 6mm'The distance offset of the pelletOutletTrack's mating hinge from the edge of the IR Beam Unit
+"pelletOutletTrackEndingWidth"= 40mm'The width of the pellet outlet Track at the end of the Track
+"pelletOutletTrackEndingLength"= 30mm'The length of pellet outlet Track at the end of the Track
+"pelletOutletTrackWallHeight"= 15mm'The height of the side walls of the pellet outlet Track
+"pelletOutletTrackThickness"= 2mm'The thickness of the pellet outlet Track
+
+"baseStandMountingFaceHeight"= 10mm'The height / thickness of the mounting face between the Base Stand and the Motor Mount parts
+"baseStandOpeningAngle"= 55deg'The angle of the opening in the front of the Base Stand to allow for unobstructed pellet outlet
+"baseStandWallThickness"= 10mm'The wall thickness of the Base Stand
+"baseStandHeight"= 100mm'The overall height of the Base Stand part
+"baseStandFootDiameterOffset"= 40mm'The distance offset of the Base Stand's foot ring
+"baseStandFootHeight"= 20mm'The height / thickness of the Base Stand's foot ring

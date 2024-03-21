@@ -2,11 +2,11 @@
 
 This assembly contains the design for a pellet dispenser. It can be used and adjusted to dispense a single pellet of adjustable shape and size.
 
-### 📏 Design Units:
+## 📏 Design Units:
 
 - Metric / MMGS
 
-### 🧾 Catalogue of Parts:
+## 🧾 Catalogue of Parts:
 
 - Hopper Tank
 - Hopper Tank Cover
@@ -19,11 +19,52 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 - IR Break Beam Unit Mounting Plate  *`(optional)`*
 - Pellet Outlet Track Mounting Plate  *`(optional)`*
 
+---
 
+## 🤖 Electronic Components Used in this Design:
+
+### Stepper Motor:
+
+Used for driving the rotating plate to dispense individual pellets from the dispenser
+
+
+
+|                    | Product Details                                                                                                             |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| **Product Name:**  | MOATECH 35BY Micro 2-Phase 4-Wire Hybrid Stepper Motor DC 5V-12V Mini Round Thin 35MM Stepping Motor Step Angle 3.75 Degree |
+| **Purchase Link:** | https://www.aliexpress.us/item/3256805310254296.html?gatewayAdapt=glo2usa                                                   |
+| **Price:**         | $1.25 USD /unit                                                                                                             |
+| **3D Model File:** | *N / A*                                                                                                                     |
+
+
+
+### IR Break Beam Sensor
+
+Used for detecting the dispensing of pellets when they pass through the IR beam and cause a beam breaking event
+
+|                    | Product Details                                                             |
+| ------------------ | --------------------------------------------------------------------------- |
+| **Product Name:**  | Adafruit IR Break Beam Sensor - 3mm LEDs [ADA2167]                          |
+| **Purchase Link:** | https://www.amazon.com/Adafruit-Accessories-Break-Beam-Sensor/dp/B01BU6YBWU |
+| **Price:**         | $6.44 USD /unit                                                             |
+| **3D Model File:** | https://grabcad.com/library/adafruit-3mm-ir-break-beam-sensor-1             |
+
+
+
+### Controller Board:
+
+Used to control the dispenser motor & IR Break Beam Sensor
+
+|                    | Product Details                                                                                                                                                                                                                                                                                                                                          |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Product Name:**  | BIGTREETECH Direct Octopus V1.1 Control Board                                                                                                                                                                                                                                                                                                            |
+| **Purchase Link:** | https://www.amazon.com/BIGTREETECH-Direct-Octopus-Control-Supports/dp/B094Y77FQN/ref=sr_1_3?dib=eyJ2IjoiMSJ9.-1_meanOObfd5wyLhC2My7PGwY79tpzqrOZokrdkj4M98KcX5sQWgUfEeeR4yw5rqU7bR2RQ1ilkNBDq_a9hENe7QrQ-TperERizfjV2TRJdqeN-d_cC70fzmCLQ5SC-.eYujgGV2-8QipropvCo_l9q0rYBzpb6cavsJ_IAbZq8&dib_tag=se&keywords=bigtree+octopus+v1.1&qid=1711063485&sr=8-3 |
+| **Price:**         | $53.99 USD /unit                                                                                                                                                                                                                                                                                                                                         |
+| **3D Model File:** | https://grabcad.com/library/bigtreetech-octopus-v1-1-1                                                                                                                                                                                                                                                                                                   |
 
 ---
 
-### 🔜 To-Do:
+## 🔜 To-Do:
 
 - Model the Pellet Receiving Tray / Bowl
   
@@ -31,13 +72,11 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 
 - Model the Pellet Routing Track *(which delivers pellets from the dispenser to the receiving bowl)*
   
-  - Figured routing track could be bent out of thin sheet metal *(just a rectangular track with 90° bent sides)*
-
-
+  - Figured routing track could be bent out of thin sheet metal *(just a rectangular track with 90° bent sides)
 
 ---
 
-### 🌐 Major Design Considerations:
+## 🌐 Major Design Considerations:
 
 - Try to make design adjustable / modular such that it could handle a pellet of any dimension or shape
 
@@ -51,11 +90,9 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 
 - Try to make design simple to assemble and take apart
 
-
-
 ---
 
-### 🛠️ Design Structure & Methodology
+## 🛠️ Design Structure & Methodology
 
 - This assembly was modeled in top-down fashion, using a shared *<mark>"variables&equations.txt"</mark>* file used in all parts to drive dimensions for each part *(this "variables&equations.txt" file can be found included with the assembly, and should be imported and linked for each part)*
 
@@ -73,11 +110,9 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 
 - An attempt was made to make the total design modular, such that some parts are optional and all parts are adjustable as needed
 
-
-
 ---
 
-### 💡 Important Notes:
+## 💡 Important Notes:
 
 - Some parts which contact or fit into others have been modeled with a "generalFittingTolerence" variable included in their measurement, to ensure the parts have less risk of contacting in an undesirable way. If this is not something you want to consider, you can simply set the value of *"**generalFittingTolerence**"* to be 0
 
@@ -93,11 +128,9 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
   - Pellet Slot Blocker
   - Rotating Plate
 
-
-
 ---
 
-### 🚨 Critical Measurements to Check & Variables to Adjust Before Manufacturing:
+## 🚨 Critical Measurements to Check & Variables to Adjust Before Manufacturing:
 
 - Pellet size & dimensions
 
@@ -109,11 +142,9 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 
 - Value for the *"**generalFittingTolerance**"* variable
 
-
-
 ---
 
-### 💭 Ideas for Futher Improvements to Design:
+## 💭 Ideas for Futher Improvements to Design:
 
 - Not sure how strong motor will have to be in order to turn the rotating plate / agitator in the case where it is fully immersed in pellets and the tank is full. It could require a lot of torque... but then you also don't want too much torque to damage the pellets. That could potentially be solved by making the agitator blades much smaller, or by removing them entirely.
 
@@ -132,5 +163,3 @@ This assembly contains the design for a pellet dispenser. It can be used and adj
 - Fix the components with their part bodies extraneous to their part origins as a consequence of top-down design strategy
 
 - Could remove external references from all parts and have complete geometry driven by the shared *<mark>"variables&equations.txt"</mark>* file *(this will require more work)*
-
-

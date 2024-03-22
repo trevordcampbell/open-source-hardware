@@ -1,4 +1,4 @@
-﻿"generalFittingTolerance"= 0.1mm'The general fitting tolerance between contacting parts
+"generalFittingTolerance"= 0.1mm'The general fitting tolerance between contacting parts
 
 
 "pelletWidth"= 13mm'The Width of the pellet to be dispensed
@@ -107,7 +107,7 @@
 
 "pelletOutletTrackHingeWidth"= 10mm'The width of the pellet outlet track's hinge which mates with the hinge on the mounting plate
 "pelletOutletTrackHingeOffsetFromIRBeamUnitEdge"= 6mm'The distance offset of the pelletOutletTrack's mating hinge from the edge of the IR Beam Unit
-"pelletOutletTrackEndingWidth"= 40mm'The width of the pellet outlet Track at the end of the Track
+"pelletOutletTrackEndingWidth"= 50mm'The width of the pellet outlet Track at the end of the Track
 "pelletOutletTrackEndingLength"= 30mm'The length of pellet outlet Track at the end of the Track
 "pelletOutletTrackWallHeight"= 15mm'The height of the side walls of the pellet outlet Track
 "pelletOutletTrackThickness"= 2mm'The thickness of the pellet outlet Track
